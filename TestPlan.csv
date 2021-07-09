@@ -1,0 +1,22 @@
+"FeatureId";"ScenarioId";"Feature";"Scenario";"Tags";"Steps"
+"1";"1";"Access Living App ";"Access App with remote control in decoder ";"['uat', 'regression', 'desco']";"   Given: living apps screen is opened
+   When: App living app is selected
+   Then: initial screen of the living app is displayed
+   !image_initial_screen.png|thumbnail!
+"
+"1";"2";"Access Living App ";"Access App with Aura in decoder ";"['uat', 'regression', 'desco', 'mandovocal']";"   Given: living apps screen is opened
+   When: user says ""Abrir App""
+   Then: initial screen of the living app is displayed
+   And: aura feedback is reproduced with ""Bienvenido a la Living App de Experiencias App.""
+   !image_initial_screen.png|thumbnail!
+"
+"1";"3";"Access Living App ";"Access App with Aura in Movistar Home ";"['uat', 'regression', 'movistarhome']";"   Given: living apps screen is opened
+   When: user says ""OK Aura, abrir App""
+   Then: initial screen of the living app is displayed
+   And: aura feedback is reproduced with ""Bienvenido a la Living App de Experiencias App.""
+   !image_initial_screen.png|thumbnail!
+"
+"2";"1";"Exit rakuten App ";"Exit from initial screen ";"['uat', 'regression', 'desco']";"   Given: initial screen is opened
+   When: home key is pressed in remote control
+   Then: application is closed
+"
