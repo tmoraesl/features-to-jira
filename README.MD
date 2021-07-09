@@ -27,8 +27,8 @@ source ~/.profile
 [How To](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0)
 ``` 
 # Add these variables:
-export TLF_JIRA_USERNAME=<YOUR_USER_NAME>
-export TLF_JIRA_PASSWORD=<YOUR_PASSWORD>
+TLF_JIRA_USERNAME=<YOUR_USER_NAME>
+TLF_JIRA_PASSWORD=<YOUR_PASSWORD>
 ```
 
 ## Create a virtual environment 
