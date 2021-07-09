@@ -109,6 +109,11 @@ class JiraTypeIds:
     TEST_PLAN_KEY = "QALATEST-1"
 ```
 
+# Only create CSV and JSON files
+Run the script: `python3 feature_parser.py`. 
+This will create the CSV and JSON files but **won't create nothing more, so nothing related to Jira**
+This is helpfull when we are in the beginning of validation and want to check if our Test Plan is mature enough, because once sent to jira, it's way more difficult to change Scenarios one by one, then editing using a text editor (Sublime, VSCode).
+Once you rely in your test plan, you can run the script below that regenerates these files (CSV, JSON) and perform the flow to create tickets in Jira
 
 # Running your script
 
